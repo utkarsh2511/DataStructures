@@ -1,0 +1,53 @@
+
+					BUBBLE SORT
+
+	CASES:
+	Worst Case:
+		Worst case occurs when the array is sorted in descending order  i.e 
+		arr[j] < arr[j+1] .
+		
+		for this the equation for time measurement is 
+		Tw(n) = An^2 + Bn + C.
+		.'.Tw(n) <= (A + B + C) n^2 , where n != 0.
+		.'. Tw(n) <= k n^2 , where k = (A + B + C).
+		.'.Tw(n) = O(n^2);
+		Similarly for,
+	Best Case & Average Case :
+		Best case occurs when the array is sorted in ascending order i.e
+		Tb(n) = Pn^2 + Bn + C.
+		Tb(n) >= 1.(n^2).
+		Tb(n) = Ω(n^2).
+		
+
+					SELECTION SORT
+
+	CASES:
+	Worst Case:
+		Worst case occurs when the array is sorted in descending order  i.e 
+		arr[j] < arr[j+1] .
+		
+		for this the equation for time measurement is 
+		Tw(n) = An^2 + Bn + C.
+		.'.Tw(n) <= (A + B + C) n^2 , where n != 0.
+		.'. Tw(n) <= k n^2 , where k = (A + B + C).
+		.'.Tw(n) = O(n^2);
+		Similarly for,
+	Best Case & Average Case :
+		Best case occurs when the array is sorted in ascending order i.e
+		arr[j] > arr[j+1].
+		T(n) = Pn^2 + Bn + C.
+		T(n) >= 1.(n^2).
+		T(n) = Ω(n^2).
+		
+					INTERPRETATION FROM GRAPHS	
+	
+	As we see  from the graph that both curves are of degree 2 but curve of bubble
+	sort is above the curve of selection sort because the constant P which appears
+	with n^2 in selection sort is less than the constant A with n^2 in bubble sort.
+	Both graphs are quadratic .
+	
+	Theoritical complexity assures that the curve for bubble and selection sort are
+	quadratic .
+	
+	Using practical complexity when we plot the graph we observe similar behaviour .
+	Hence Theoritical and practical complexity matches .
